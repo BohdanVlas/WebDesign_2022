@@ -62,11 +62,11 @@ div .rightcolumn {
     margin-bottom: 5px;
 }
 
-.courses-li{
+.courses-li {
     margin-left: 20px;
 }
 
-section .lang{
+section .lang {
     align-items: center;
 }
 
@@ -76,10 +76,30 @@ section .lang{
     width: 300px;
 }
 
-.beige_column *{
+.beige_column * {
     background-color: rgba(0, 0, 0, 0);
 }
 
 footer {
     height: 50px;
+}
+
+.skill_1 {
+    margin-left: 30.2mm;
+}
+
+.skill_2 {
+    margin-left: 37mm;
+}
+
+.skill_3 {
+    margin-left: 39.1mm;
+}
+
+.skill_4 {
+    margin-left: 33.3mm;
+}
+
+.skill_5 {
+    margin-left: 28.4mm;
 }
