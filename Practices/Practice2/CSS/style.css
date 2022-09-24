@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 h1 {
+    background-color: white;
     font-size: 35px;
 }
 
 * {
     font-family: 'Open Sans', sans-serif;
+    color: black;
     background-color: white;
     max-width: 1000px;
     margin: 0 auto;
     padding: 0;
 }
-
-body {}
 
 header,
 .container {
@@ -45,11 +45,10 @@ img {
     border-style: solid;
 }
 
-aside .leftcolumn {
+aside .left_column {
     align-items: left;
     vertical-align: top;
     flex: 1 1 300px;
-    background-color: honeydew;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 5px;
@@ -71,3 +70,16 @@ section .lang{
     align-items: center;
 }
 
+.beige_column {
+    color: black;
+    background-color: bisque;
+    width: 300px;
+}
+
+.beige_column *{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+footer {
+    height: 50px;
+}
