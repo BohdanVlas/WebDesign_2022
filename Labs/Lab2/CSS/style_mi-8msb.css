@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header{
+    background-image: url("Shapka_1.png");
+    height: 272px;
+    align-items: center;
+    vertical-align: top;
+}
+
+.title{
+    font-size: 50px;
+    color: navy;
+}
