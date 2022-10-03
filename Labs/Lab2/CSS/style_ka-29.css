@@ -5,7 +5,8 @@
     max-width: 1600px;
     margin: 0 auto;
     padding: 0;
-    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 header{
@@ -18,4 +19,13 @@ header{
 .title{
     font-size: 50px;
     color: navy;
+    text-shadow: 2px 2px white;
+}
+
+.dv{
+    background-color: rgba(0, 255, 255, 0.1)
+}
+
+footer{
+    background-color: rgba(0, 255, 255, 0.1)
 }
