@@ -174,21 +174,8 @@ header .follow a:hover{
     padding-bottom: 2rem;
 }
 
-.about .row-1 .image{
-    flex:1 1 25rem;
-}
-
-.about .row-1 .image img{
-    height: 50%;
-    width: 35%;
-    object-fit: cover;
-    border:1rem solid #fff;
-    border-radius: .5rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-}
-
 .about .row-1 .content{
-    flex:1 1 50rem;
+    flex: 1 1 80rem;
 }
 
 .about .row-1 .content h3{
