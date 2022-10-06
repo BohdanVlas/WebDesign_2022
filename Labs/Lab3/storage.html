@@ -1,12 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Storage</title>
+    <link rel="stylesheet" href="./CSS/stylestorage.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1 align="center" class="heading"> <span> Склад </span> </h1>
+    </header>
+    <div class="container">
+        <section class="storage">
+            <div class="box-container">
+                <div class="box" data-id="01">
+                    <img class="rocket-img" src="./Images/S-5_57mm.jpg" alt="S-5_57mm" title="">
+                    <h3 class="rocket-title">С-5</h3>
+                    <p><small data-rockets-in-box class="text-muted">57 шт.</small></p>
+                    Маса: <div class="weight">171кг</div>
+                    Максимальна швидкість: 570м/с<BR>Маса вибухової речовини: 0,37кг<BR>Тротиловий еквівалент:
+                    0,37кг<BR>
+                    <div class="select">
+                        <div class="counter">
+                            <div class="rocket_control" data-action="minus">-</div>
+                            <div class="rocket_current" data-counter>1</div>
+                            <div class="rocket_control" data-action="plus">+</div>
+                        </div>
+                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Додати</button>
+                    </div>
+                </div>
+                <div class="box" data-id="02">
+                    <img class="rocket-img" src="./Images/S-8_80mm.jpg" alt="S-8_80mm" title="">
+                    <h3 class="rocket-title">С-8</h3>
+                    <p><small data-rockets-in-box class="text">20 шт.</small></p>
+                    Маса: <div class="weight">220кг</div>
+                    Максимальна швидкість: 650м/с<BR>Маса вибухової речовини: 1,1кг<BR>Тротиловий еквівалент: 1,69кг<BR>
+                    <div class="select">
+                        <div class="counter">
+                            <div class="control" data-action="minus">-</div>
+                            <div class="current" data-counter>1</div>
+                            <div class="control" data-action="plus">+</div>
+                        </div>
+                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Додати</button>
+                    </div>
+                </div>
+                <div class="box" data-id="03">
+                    <p>Missing</p>
+                    <h3>С-13</h3>
+                    <p><small data-rockets-in-box class="text">5 шт.</small></p>
+                    Маса: <div class="weight">345кг</div>
+                    Максимальна швидкість: 530м/с<BR>Маса вибухової речовини: 6,9кг<BR>Тротиловий еквівалент:
+                    10,63кг<BR>
+                    <div class="select">
+                        <div class="counter">
+                            <div class="control" data-action="minus">-</div>
+                            <div class="current" data-counter>1</div>
+                            <div class="control" data-action="plus">+</div>
+                        </div>
+                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Додати</button>
+                    </div>
+                </div>
+                <div class="box" data-id="04">
+                    <img class="rocket-img" src="./Images/S-24B.jpg" alt="" title="">
+                    <h3>С-24Б</h3>
+                    <p><small data-rockets-in-box class="text">1 шт.</small></p>
+                    Маса: <div class="weight">235кг</div>
+                    Максимальна швидкість: 410м/с<BR>Маса вибухової речовини: 25,5кг<BR>
+                    <div class="select">
+                        <div class="counter">
+                            <div class="control" data-action="minus">-</div>
+                            <div class="current" data-counter>1</div>
+                            <div class="control" data-action="plus">+</div>
+                        </div>
+                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Додати</button>
+                    </div>
+                </div>
+                <div class="box" data-id="05">
+                    <img class="rocket-img" src="./Images/PY-S-5.JPG" alt="" title="">
+                    <h3 class="rocket-title">УВ-32-57</h3>
+                    <p><small data-rockets-in-box class="text">1 шт.</small></p>
+                    Маса: <div class="weight">109кг</div>
+                    <div class="select">
+                        <div class="counter">
+                            <div class="control" data-action="minus">-</div>
+                            <div class="current" data-counter>1</div>
+                            <div class="control" data-action="plus">+</div>
+                        </div>
+                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Додати</button>
+                    </div>
+                </div>
+                <div class="box" data-id="06">
+                    <img class="rocket-img" src="./Images/PY-S-8.jpg" alt="" title="">
+                    <h3 class="rocket-title">УВ-20-80</h3>
+                    <p><small data-rockets-in-box class="text">1 шт.</small></p>
+                    Маса: <div class="weight">150кг</div>
+                    <div class="select">
+                        <div class="counter">
+                            <div class="control" data-action="minus">-</div>
+                            <div class="current" data-counter>1</div>
+                            <div class="control" data-action="plus">+</div>
+                        </div>
+                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Додати</button>
+                    </div>
+                </div>
+                <div class="box" data-id="07">
+                    <img class="rocket-img" src="./Images/B-13.png" alt="" title="">
+                    <h3 class="rocket-title">Б-13</h3>
+                    <p><small data-rockets-in-box class="text">1 шт.</small></p>
+                    Маса: <div class="weight">160кг</div>
+                    <div class="select">
+                        <div class="counter">
+                            <div class="control" data-action="minus">-</div>
+                            <div class="current" data-counter>1</div>
+                            <div class="control" data-action="plus">+</div>
+                        </div>
+                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Додати</button>
+                    </div>
+                </div>
+                <div class="box" data-id="08">
+                    <img class="rocket-img" src="./Images/FAB-250.JPG" alt="" title="">
+                    <h3 class="rocket-title">ФАБ-250</h3>
+                    <p><small data-rockets-in-box class="text">1 шт.</small></p>
+                    Маса: <div class="weight">250кг</div>
+                    Маса вибухової речовини: 99кг<BR>
+                    <div class="select">
+                        <div class="counter">
+                            <div class="control" data-action="minus">-</div>
+                            <div class="current" data-counter>1</div>
+                            <div class="control" data-action="plus">+</div>
+                        </div>
+                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Додати</button>
+                    </div>
+                </div>
+                <div class="box" data-id="09">
+                    <img class="rocket-img" src="./Images/FAB-500.JPG" alt="" title="">
+                    <h3 class="rocket-title">ФАБ-500</h3>
+                    <p><small data-rockets-in-box class="text">2 шт.</small></p>
+                    Маса: <div class="weight">956кг</div>
+                    Маса вибухової речовини: 201кг<BR>
+                    <div class="select">
+                        <div class="counter">
+                            <div class="control" data-action="minus">-</div>
+                            <div class="current" data-counter>1</div>
+                            <div class="control" data-action="plus">+</div>
+                        </div>
+                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Додати</button>
+                    </div>
+                </div>
+                <div class="box" data-id="10">
+                    <img class="rocket-img" src="./Images/UPK-23-250.jpg" alt="" title="">
+                    <h3 class="rocket-title">УПК-23-250</h3>
+                    <p></p>
+                </div>
+                <div class="box" data-id="11">
+                    <img class="rocket-img" src="./Images/R-60M.jpg" alt="" title="">
+                    <h3 class="rocket-title">Р-60М</h3>
+                    <p><small data-rockets-in-box class="text">2 шт.</small></p>
+                    Маса: <div class="weight">88кг</div>
+                    Наведення: ІЧ<BR>Ракурсність: Всеракурсна<BR>Дальність пуску: 8км<BR>
+                    Максимальна швидкість: 2,5М<BR>Маса вибухової речовини: 1,35кг<BR>
+                    <div class="select">
+                        <div class="counter">
+                            <div class="control" data-action="minus">-</div>
+                            <div class="current" data-counter>1</div>
+                            <div class="control" data-action="plus">+</div>
+                        </div>
+                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Додати</button>
+                    </div>
+                </div>
+        </section>
+        <section class="cart">
+            <h5 class="cart-title">Замовлення</h4>
+                <div data-cart-empty class="alert alert-secondary" role="alert">
+                    Пусто
+                </div>
+                <div class="cart-wrapper">
+                </div>
+                <div class="cart-total">
+                    <p><span class="h5">Бойове навантаження:</span>
+                        <span class="total-weight"></span>
+                        <span class="rouble"></span>
+                    </p>
+                </div>
+        </section>
+    </div>
+    <script src="./scrypt.js"></script>
+    <script src="./cart.js"></script>
+    <script src="./cart1.js"></script>
+    <script src="./cart2.js"></script>
 </body>
+
 </html>

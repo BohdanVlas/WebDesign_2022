@@ -4,7 +4,6 @@ window.addEventListener('click', function (event) {
 		const card = event.target.closest('.box');
 		const rocketinfo = {
 			id: card.dataset.id,
-            imSrc: card.querySelector('.rocket-img').getAttribute('src'),
             title: card.querySelector('.rocket-title').innerText,
             rockets: card.querySelector('[data-rockets-in-box]').innerText,
             weight: card.querySelector('.weight').innerText,
@@ -17,9 +16,6 @@ window.addEventListener('click', function (event) {
 		} else {
 			const cartRocketHTML = `<div class="cart-item" data-id="${rocketinfo.id}">
                                         <div class="cart-item__top">
-                                            <div class="cart-item__img">
-                                                <img src="${rocketinfo.imgSrc}">
-                                            </div>
                                         <div class="cart-item__desc">
                                             <div class="cart-item__title">${rocketinfo.title}</div>
                                             <div class="cart-item__weight">${rocketinfo.rockets} / ${rocketinfo.weight}</div>
