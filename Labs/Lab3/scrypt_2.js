@@ -1,6 +1,6 @@
 function calcCartWeight() {
 	const cartWrapper = document.querySelector('.cart-wrapper');
-	const weightElements = cartWrapper.querySelectorAll('.weight__currency');
+	const weightElements = cartWrapper.querySelectorAll('.weight');
 	const totalWeightEl = document.querySelector('.total-weight');
 	let weightTotal = 0;
 	weightElements.forEach(function (item) {
