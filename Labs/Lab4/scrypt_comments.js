@@ -17,5 +17,5 @@ function renderComment(name, text) {
 							<h3 class="comment-user">${name}</h3>
 							<p>${text}</p>
 					    </div>`;
-    commentsContainer.append(commentHTML);
+    commentsContainer.insertAdjacentHTML('beforeend', commentHTML);
 }
