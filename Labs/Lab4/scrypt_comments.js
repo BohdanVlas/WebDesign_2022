@@ -2,8 +2,6 @@ const commentsContainer = document.querySelector('.box-container');
 
 let response = fetch('https://dummyjson.com/comments?limit=5&skip=6&select=body,postId').then(res => res.json()).then(json => parse(json.comments));
 
-console.log(response);
-
 async function parse(data) {
     for(let element = 0; element < data.length; element++){
         let name = await data[element].user.username;
