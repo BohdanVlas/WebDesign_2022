@@ -1,4 +1,4 @@
-const commentsContainer = document.querySelector('#comments');
+const commentsContainer = document.querySelector('.box-container');
 
 let response = fetch('https://dummyjson.com/comments?limit=5&skip=6&select=body,postId').then(res => res.json()).then(json => parse(json.comments));
 
