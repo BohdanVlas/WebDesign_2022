@@ -1,0 +1,46 @@
+{
+	"about": [
+		{
+			"id": 1,
+			"title": "Комплект ламп світлодіодних 8W E27 OSRAM 4000K Value CLA60",
+			"itemsInBox": 3,
+			"power": 8,
+			"imgSrc": "./img/8W_E27.jpg"
+		},
+		{
+			"id": 2,
+			"title": "Лампа світлодіодна 4W E27 Philips LEDBulb 3000K A55 (PF)",
+			"itemsInBox": 1,
+			"power": 4,
+			"imgSrc": "./img/4W_E27.jpg"
+		},
+		{
+			"id": 3,
+			"title": "Лампа світлодіодна 5W E14 ILUMIA 3000K (свічка)",
+			"itemsInBox": 1,
+			"power": 5,
+			"imgSrc": "./img/5W_E14.jpg"
+		},
+		{
+			"id": 4,
+			"title": "Лампа світлодіодна 5W GU5.3 LEDEX 3000K",
+			"itemsInBox": 1,
+			"power": 5,
+			"imgSrc": "./img/5W_GU5.3.jpg"
+		},
+		{
+			"id": 5,
+			"title": "Лампа світлодіодна 7W E27 LEDEX 3000K",
+			"itemsInBox": 1,
+			"power": 7,
+			"imgSrc": "./img/7W_E27.jpg"
+		},
+		{
+			"id": 6,
+			"title": "Лампа компактна 24W G24d-3 Electrum 4000K PL-C22",
+			"itemsInBox": 1,
+			"power": 26,
+			"imgSrc": "./img/24W_G24D-3.jpg"
+		}
+	]
+}

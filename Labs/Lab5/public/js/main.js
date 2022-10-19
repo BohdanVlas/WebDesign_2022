@@ -1,6 +1,6 @@
-async function addproduct(id, title, power, imgSrc) {
+async function addproduct(id, title, itemsInBox, power, imgSrc) {
     let product = document.createElement('div')
-    let container = document.querySelector('.#box-container')
+    let container = document.querySelector('.box-container')
 
     let ViewerContent = `<div class="box" data-id="${id}">
                             <img class="" src="${imgSrc}">
@@ -15,7 +15,7 @@ async function addproduct(id, title, power, imgSrc) {
 
 async function Get_Product() 
 {
-    fetch("http://localhost:3000/products").then(
+    fetch("http://localhost:3000/about").then(
         (response)=>{
             return response.text()
         }
@@ -25,10 +25,11 @@ async function Get_Product()
 
             id = `${element.id}`
             tit = `${element.title}`
+            iteminbx = `${element.itemsInBox}`
             pow = `${element.power}`
             img = `${element.imgSrc}`
 
-            addproduct(id, tit, pow, imgSrc)
+            addproduct(id, tit, iteminbx, pow, img)
         })
     })
 }
