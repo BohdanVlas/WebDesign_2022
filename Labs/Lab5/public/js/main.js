@@ -1,14 +1,15 @@
 async function addproduct(id, title, itemsInBox, power, imgSrc) {
     let product = document.createElement('div')
+    product.className = 'box'
     let container = document.querySelector('.box-container')
 
-    let ViewerContent = `<div class="box" data-id="${id}">
+    let ViewerContent = `
                             <img class="" src="${imgSrc}">
                             <h3 class="title">${title}</h3>
                             <p><small>Кількість в наборі: ${itemsInBox}</small><small data-items-in-box class="text-muted"></small><small>шт</small></p>
                             <p><small>Потужність: </small><small class="power">${power}</small><small>ВТ</small></p>
                             <p><small>Артикул: </small><small class="id">${id}</small></p>
-                        </div>`
+                        `
     product.innerHTML = ViewerContent;
     container.append(product);
 }
